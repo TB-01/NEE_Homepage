@@ -33,4 +33,7 @@ html {
     transform: translateY(-50%);
     text-align: left;
     bottom: initial;
-    }
+}
+.example::-webkit-scrollbar {
+        display: none;
+}
