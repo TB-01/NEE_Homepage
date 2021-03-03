@@ -13,9 +13,7 @@
     transform: scale(1.2);
 }
 
-.carousel-item{
-    height: 100vh;
-}
+
 body{
     margin: 0;
     padding: 0;
@@ -28,12 +26,11 @@ html {
     background: url(../pictures/Harbor_Panoramic.jpg);
     background-size: cover;
 }
-.carousel-caption{
-
-    position: absolute;
-    top: 38%;
-    text-transform: uppercase;
-}
-.carousel-item{
-    height: 100vh;
-}
+.carousel-caption {
+    width: 100%;
+    left: 15%;
+    top: 50% !important;
+    transform: translateY(-50%);
+    text-align: left;
+    bottom: initial;
+    }
