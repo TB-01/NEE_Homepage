@@ -13,17 +13,19 @@
   </head>
   <body class="bg-light example">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <a class="navbar-brand" href="index.html"><img src="pictures/Logo.png" width="60" height="60"></a>
+      <a class="navbar-brand ms-3" href="index.html"><img src="pictures/Logo.png" width="60" height="60"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link" href="about.html">Über Uns</a>
+        <div class="navbar-nav ms-auto me-3">
+          
           <a class="nav-item nav-link" href="projects.html">Projekte</a>
           <a class="nav-item nav-link" href="rental.html">Mieten</a>
           <a class="nav-item nav-link" href="consulting.html">Beratung</a>
+          <a class="nav-item nav-link" href="about.html">Über Uns</a>
           <a class="nav-item nav-link" href="contact.html">Kontakt</a>
+          
         
         </div>
       </div>
@@ -31,11 +33,11 @@
     <!--Bilder Karussel am besten: Cafe, Wallstraße, und noch eines(vielleicht in Entstehung)-->
 
     <div id="slides" class="carousel slide" data-ride="carousel">
-      <ul class="carousel-indicators">
-        <li data-target="#slides" data-slide-to="0" class="active"></li>
-        <li data-target="#slides" data-slide-to="1"></li>
-        <li data-target="#slides" data-slide-to="2"></li>
-      </ul>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active"></li>
+        <button type="button" data-bs-target="#slides" data-bs-slide-to="1"></li>
+        <button type="button" data-bs-target="#slides" data-bs-slide-to="2"></li>
+      </div>
       <div class="carousel-inner text-center">
         <div class="carousel-item active">
           <div class="inner">
@@ -77,39 +79,39 @@
           <div class="card">
             <div class="embed-responsive embed-responsive-16by9">
               <div class="inner">
-                <img alt="Card image cap" class="card-img-top embed-responsive-item" src="pictures/Beratung-Titel_137600595_S.jpg" />
+                <img alt="Card image cap" class="card-img-top embed-responsive-item img-fluid" src="pictures/Beratung-Titel_137600595_S.jpg" />
               </div>
            </div>
             <div class="card-body">
               <h5 class="card-title">Beratung</h5>
               <p class="card-text">Durch jahrzehntelange Erfahrung bietet die N.E.E ein tiefgreifendes Verständnis rund um Immobilien an. Durch das familiäre Umfeld und den professionellen Umgang miteinander enstehen immer wieder atemberaubene Projekte.</p>
-              <a href="consulting.html" class="card-link">Weiterlesen...</a>
+              <a href="consulting.html" class="btn btn-primary">Weiterlesen...</a>
             </div>
           </div>
 
           <div class="card">
             <div class="embed-responsive embed-responsive-16by9">
               <div class="inner">
-                <img alt="Card image cap" class="card-img-top embed-responsive-item" src="pictures/Landingpage_Wallpaper.jpg" />
+                <img alt="Card image cap" class="card-img-top embed-responsive-item img-fluid" src="pictures/Landingpage_Wallpaper.jpg" />
               </div>
            </div>
             <div class="card-body">
               <h5 class="card-title">Immobilienentwicklung</h5>
               <p class="card-text">Die N.E.E sucht ständig nach attraktiven regionalen Projekten. Spezialisiert sind wir auf die Sanierung diverser Altbauten.</p>
-              <a href="projects.html" class="card-link">Weiterlesen...</a>
+              <a href="projects.html" class="btn btn-primary">Weiterlesen...</a>
             </div>
           </div>
 
           <div class="card">
             <div class="embed-responsive embed-responsive-16by9">
               <div class="inner">
-                <img alt="Card image cap" class="card-img-top embed-responsive-item" src="pictures/beach_Ueckermünde.jpg" />
+                <img alt="Card image cap" class="card-img-top embed-responsive-item img-fluid" src="pictures/beach_Ueckermünde.jpg" />
               </div>
            </div>
             <div class="card-body">
               <h5 class="card-title">Vermietung</h5>
               <p class="card-text">Die North-East-Estate ist auch in der regionalen Vermietung zu finden. Die Pension am Haff - Haffidylle - wird von der N.E.E betrieben und verwaltet.</p>
-              <a href="rental.html" class="card-link">Weiterlesen...</a>
+              <a href="rental.html" class="btn btn-primary">Weiterlesen...</a>
             </div>
           </div>
         </div>
@@ -123,9 +125,9 @@
             <div class="container-fluid mt-3">
               <div class="row py-4 d-flex align-items-center">
                 <div class="col-md-12 text-center">
-                  <a href="#"><i class=" text-white fab fa-facebook mr-4 "></i></a>
-                  <a href="#"><i class=" text-white fab fa-google-plus-square mr-4"></i></a>
-                  <a href="#"><i class=" text-white fab fa-twitter mr-4"></i></a>
+                  <a href="#"><i class=" text-white fab fa-facebook me-4 "></i></a>
+                  <a href="#"><i class=" text-white fab fa-google-plus-square me-4"></i></a>
+                  <a href="#"><i class=" text-white fab fa-twitter me-4"></i></a>
                   <a href="#"><i class=" text-white fab fa-instagram"></i></a>
                 </div>
               </div>

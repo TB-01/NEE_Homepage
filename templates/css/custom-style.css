@@ -26,6 +26,11 @@ html {
     background: url(../pictures/Harbor_Panoramic.jpg);
     background-size: cover;
 }
+
+.example::-webkit-scrollbar {
+        display: none;
+}
+
 .carousel-caption {
     width: 100%;
     left: 15%;
@@ -33,7 +38,4 @@ html {
     transform: translateY(-50%);
     text-align: left;
     bottom: initial;
-}
-.example::-webkit-scrollbar {
-        display: none;
 }
