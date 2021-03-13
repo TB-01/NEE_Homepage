@@ -42,47 +42,86 @@
       <img src="pictures/Harbor_Panoramic.jpg" alt="" class="img-fluid">
     </div>
     
+
+
+    <!--HEADING-->
    <div class="container mt-5 ">
        <h1 class="pt-4">/Kontakt</h1>
        <div class="border-top w-60 mx-auto my-3"></div>
-  
-         
+    <p class="text-secondary fs-4 mt-3 mb-5">Haben Sie Fragen zu einem neuen Projekt oder ein anderes Anliegen? Melden Sie sich bei uns – wir hören Ihnen gerne zu. Mit unseren neun Niederlassungen in Hamburg, Berlin, Leipzig, Düsseldorf, Köln, Frankfurt, Stuttgart, Nürnberg und München sowie unseren Regionalbüros in Hannover, Dortmund, Koblenz, Mannheim, Freiburg und Überlingen sind wir ganz in Ihrer Nähe. Gern stehen wir Ihnen als Gesprächspartner für alle Themen der Wohnimmobilienentwicklung zur Verfügung.</p>
+    <!--CONTACTFORM-->
       <div class="row">
-        
-          <div class="card" style="width: 20rem;">
-            <img class="card-img-top mt-3 rounded" src="pictures/Denis-Gholami-Profilfoto-e1574687241199.jpeg" alt="Card image cap">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="far fa-user-circle me-3"></i>Geschäftsführer</li>
-              <li class="list-group-item"><i class="far fa-envelope me-3"></i>roman@bress.de</li>
-              <li class="list-group-item"><i class="fas fa-phone me-3"></i>01728762494</li>
-            </ul>
+      <div class="col-md-6">
+        <form class="row g-3" action="https://formsubmit.co/tobress@gmail.com" method="POST">
+          <div class="col-md-6">
+            <label class="form-label">Vorname</label>
+            <input type="name" class="form-control" id="inputEmail4" name="Vorname">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Nachname</label>
+            <input type="name" class="form-control" id="inputPassword4" name="Nachname">
+          </div>
+          <div class="col-12 mt-4">
+            <label for="inputAddress" class="form-label">Email-Adresse</label>
+            <input type="email" class="form-control" id="inputAddress" placeholder="beispiel@mail.com" name="Mail">
           </div>
          
-        <div class="col-md-8 ml-5">
-          <p class="lead">Haben Sie Fragen zu einem neuen Projekt oder ein anderes Anliegen? Melden Sie sich bei uns – wir hören Ihnen gerne zu. Mit unseren neun Niederlassungen in Hamburg, Berlin, Leipzig, Düsseldorf, Köln, Frankfurt, Stuttgart, Nürnberg und München sowie unseren Regionalbüros in Hannover, Dortmund, Koblenz, Mannheim, Freiburg und Überlingen sind wir ganz in Ihrer Nähe. Gern stehen wir Ihnen als Gesprächspartner für alle Themen der Wohnimmobilienentwicklung zur Verfügung. </p>
-         </div>
+          <div class="col-md-6 mt-4">
+            <label class="form-label">Telefonnummer</label>
+            <input type="phone" class="form-control" id="inputCity" placeholder="beispiel@mail.com" name="Telefonnummer">
+          </div>
+          <div class="col-md-6 mt-4">
+            <label class="form-label">Anliegen</label>
+            <select id="inputsubject" class="form-select" name="Anliegen">
+              <option selected>Auswählen...</option>
+              <option>Beratung</option>
+              <option>Sanierung</option>
+              <option>Vermietung</option>
+            </select>
+          </div>
+          <div class="col-md-12 mt-4">
+            <label class="form-label">Kommentare</label>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" name="Kommentar"></textarea>
+              
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary mt-4">Kontaktieren</button>
+          </div>
+        </form>
       </div>
 
-       <form>
-        <div class="form-group mt-5">
-          <label for="exampleFormControlInput1">Email-Adresse</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@beispiel.com">
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Thema der Frage</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>Beratung</option>
-            <option>Vermietung</option>
-            <option>Allgemeine Fragen</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Ihr Anliegen</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-      </form>
-   </div>
 
+      <!--EXECUTIVES-->
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img src="pictures/Denis-Gholami-Profilfoto-e1574687241199.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Roman Bress</h5>
+            <p class="card-text">Geschäftsführer</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><i class="fas fa-envelope me-3"></i>roman@bress.com</li>
+            <li class="list-group-item"><i class="fas fa-phone me-3"></i>0174293846</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img src="pictures/Denis-Gholami-Profilfoto-e1574687241199.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tom Bress</h5>
+            <p class="card-text">Stellvertretender Geschäftsführer</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><i class="fas fa-envelope me-3"></i>Tom@bress.com</li>
+            <li class="list-group-item"><i class="fas fa-phone me-3"></i>01745368935</li>
+          </ul>
+        </div>
+      </div>
+   </div>
+   </div>
 
 
 
@@ -98,10 +137,10 @@
       <div class="container-fluid">
         <div class="row py-4 d-flex align-items-center">
           <div class="col-md-12 text-center">
-            <a href="#"><i class="fab fa-facebook mr-4"></i></a>
-            <a href="#"><i class="fab fa-google-plus-square mr-4"></i></a>
-            <a href="#"><i class="fab fa-twitter mr-4"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="text-white fab fa-facebook me-4"></i></a>
+            <a href="#"><i class="text-white fab fa-google-plus-square me-4"></i></a>
+            <a href="#"><i class="text-white fab fa-twitter me-4"></i></a>
+            <a href="#"><i class="text-white fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
