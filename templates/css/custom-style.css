@@ -64,3 +64,21 @@ html {
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+  .resize {
+    position: relative;
+    overflow: hidden;
+    width: 100%; /* or whatever */
+    height: 450px; /* or whatever */
+  }
+  .resize img {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    right: -100%;
+    margin: auto;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    bottom: 5;
+  }
