@@ -39,6 +39,10 @@ html {
     text-align: left;
     bottom: initial;
 }
+.carousel-item img{
+    height: 100vh;
+    width: 100%;
+}
 .card-img-top {
     
     width: 100%;
@@ -68,11 +72,11 @@ html {
     position: relative;
     overflow: hidden;
     width: 100%; /* or whatever */
-    height: 450px; /* or whatever */
+    height: 37.5vh; /* or whatever */
   }
   .resize img {
-    position: absolute;
-    top: 0;
+    position:absolute;
+    top: -17%;
     left: -100%;
     right: -100%;
     margin: auto;
@@ -80,5 +84,5 @@ html {
     height: auto;
     min-width: 100%;
     min-height: 100%;
-    bottom: 5;
+    
   }
